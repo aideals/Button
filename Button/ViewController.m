@@ -9,19 +9,39 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic,strong)UILabel *lb;
+@property (nonatomic,strong)UIButton *bt;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    _lb = [[UILabel alloc] initWithFrame:CGRectMake(125, 45, 150, 55)];
+    _lb.backgroundColor = [UIColor greenColor];
+
+    _bt = [[UIButton alloc] initWithFrame:CGRectMake(160, 145, 70, 45)];
+    [_bt setBackgroundImage:[UIImage imageNamed:@"button.png"] forState:UIControlStateNormal];
+    [_bt addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchDown];
+    
+    
+    [self.view addSubview:_lb];
+    [self.view addSubview:_bt];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)click:(id)sender
+{
+    if (!self.bt.selected) {
+        self.lb.text = @"I'm a label!";
+    }
+    else if ((self.bt.selected = !self.bt.selected)) {
+        self.lb.text = @"";
+    }
 }
+
+
+
 
 @end
