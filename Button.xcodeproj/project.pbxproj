@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2751F41CE34B9B00132A04 /* dog 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2751EF1CE34B9B00132A04 /* dog 4.png */; };
+		1D2751F51CE34B9B00132A04 /* dog 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2751F01CE34B9B00132A04 /* dog 5.png */; };
+		1D2751F61CE34B9B00132A04 /* dog 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2751F11CE34B9B00132A04 /* dog 3.png */; };
+		1D2751F71CE34B9B00132A04 /* dog 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2751F21CE34B9B00132A04 /* dog 2.png */; };
+		1D2751F81CE34B9B00132A04 /* dog 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2751F31CE34B9B00132A04 /* dog 1.png */; };
 		1D39BED01CDEC023004B5737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39BECF1CDEC023004B5737 /* main.m */; };
 		1D39BED31CDEC023004B5737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39BED21CDEC023004B5737 /* AppDelegate.m */; };
 		1D39BED61CDEC023004B5737 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39BED51CDEC023004B5737 /* ViewController.m */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2751EF1CE34B9B00132A04 /* dog 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog 4.png"; sourceTree = "<group>"; };
+		1D2751F01CE34B9B00132A04 /* dog 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog 5.png"; sourceTree = "<group>"; };
+		1D2751F11CE34B9B00132A04 /* dog 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog 3.png"; sourceTree = "<group>"; };
+		1D2751F21CE34B9B00132A04 /* dog 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog 2.png"; sourceTree = "<group>"; };
+		1D2751F31CE34B9B00132A04 /* dog 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog 1.png"; sourceTree = "<group>"; };
 		1D39BECB1CDEC023004B5737 /* Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Button.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D39BECF1CDEC023004B5737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D39BED11CDEC023004B5737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +118,11 @@
 				1D39BEDA1CDEC023004B5737 /* Assets.xcassets */,
 				1D39BEDC1CDEC023004B5737 /* LaunchScreen.storyboard */,
 				1D39BEDF1CDEC023004B5737 /* Info.plist */,
+				1D2751EF1CE34B9B00132A04 /* dog 4.png */,
+				1D2751F01CE34B9B00132A04 /* dog 5.png */,
+				1D2751F11CE34B9B00132A04 /* dog 3.png */,
+				1D2751F21CE34B9B00132A04 /* dog 2.png */,
+				1D2751F31CE34B9B00132A04 /* dog 1.png */,
 				1DED8FC91CDF40AD00704A69 /* button.png */,
 				1D39BECE1CDEC023004B5737 /* Supporting Files */,
 			);
@@ -247,8 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D39BEDE1CDEC023004B5737 /* LaunchScreen.storyboard in Resources */,
+				1D2751F71CE34B9B00132A04 /* dog 2.png in Resources */,
+				1D2751F61CE34B9B00132A04 /* dog 3.png in Resources */,
+				1D2751F51CE34B9B00132A04 /* dog 5.png in Resources */,
 				1DED8FCA1CDF40AD00704A69 /* button.png in Resources */,
+				1D2751F41CE34B9B00132A04 /* dog 4.png in Resources */,
 				1D39BEDB1CDEC023004B5737 /* Assets.xcassets in Resources */,
+				1D2751F81CE34B9B00132A04 /* dog 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
