@@ -27,7 +27,10 @@
     [_bt setBackgroundImage:[UIImage imageNamed:@"button.png"] forState:UIControlStateNormal];
     [_bt addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchDown];
     
-    _iv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 200, self.view.bounds.size.width, 400)];
+    
+    
+    
+    _iv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 210, self.view.bounds.size.width, 400)];
     
     UIImage *img1 = [UIImage imageNamed:@"dog 1"];
     UIImage *img2 = [UIImage imageNamed:@"dog 2"];
@@ -37,17 +40,19 @@
     
     _iv.animationImages = [NSArray arrayWithObjects:img1,img2,img3,img4,img5, nil];
     _iv.animationDuration = 9;
-    _iv.animationRepeatCount = 2;
+    _iv.animationRepeatCount = 0;
     [_iv startAnimating];
     
     _iv.userInteractionEnabled = YES;
     UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tagImageView:)];
     [_iv addGestureRecognizer:tgr];
     
+   
     
     [self.view addSubview:_lb];
     [self.view addSubview:_bt];
     [self.view addSubview:_iv];
+    
 }
 
 - (IBAction)click:(id)sender
